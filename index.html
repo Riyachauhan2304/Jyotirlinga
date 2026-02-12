@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring Shiva Temples - 12 Jyotirlingas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Exploring Shiva Temples</h1>
+            <p class="subtitle">Discover the Sacred 12 Jyotirlingas of India</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="search-section">
+            <div class="search-wrapper">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-bar" 
+                    placeholder="Search Jyotirlingas..."
+                    autocomplete="off"
+                >
+                <div id="searchDropdown" class="search-dropdown" style="display: none;"></div>
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <div class="stat">
+                <span class="stat-label">Total Visits:</span>
+                <span class="stat-value" id="visitCount">0</span>
+            </div>
+        </div>
+
+        <section class="jyotirlingas-grid" id="jyotirlingasGrid">
+            <!-- Cards will be populated by JavaScript -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Exploring Shiva Temples. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
